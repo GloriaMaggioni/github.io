@@ -82,7 +82,9 @@ body{
 }
 
 .site-banner .row img{
-    padding-bottom:40px;
+    max-width: 100%;
+    padding-bottom:26px;
+    padding-top: 40px;
     
 }
 
@@ -189,8 +191,11 @@ body{
     .fa-bootstrap {
         color: #563d7c;
     }
+    .fa-js {
+       color: #F0DB4F;
+    }
     
-    .fa-html5, .fa-css3-alt, .fa-bootstrap {
+    .fa-html5, .fa-css3-alt, .fa-bootstrap, .fa-js {
         font-size: 2rem;
         margin: 1rem
     }
@@ -350,4 +355,5 @@ body{
         padding-bottom: 7rem;
 
     }
+   
 }
