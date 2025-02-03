@@ -36,6 +36,9 @@
           <li class="nav-item">
             <a class="nav-link" href="#process" title="Go to Process section that describe my professional journey and my skills">Process</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects" title="Go to Projects section to see my projects">Projects</a>
+          </li>
          
           <li class="nav-item">
             <a class="nav-link contact" href="./contact_form.html" title="Go to Contact page with contact form">Contact</a>
@@ -124,34 +127,43 @@
              
              <div class="row container-fluid  ">
                <div class="col-lg-6 experience">
-                 <h3>Start2Impact</h3>
+                <div class="title ">                
+                   <h3>Start2Impact</h3>
+                </div>
                  <p>3 Febbraio 2022- In corso</p>
                  <p>Sto  studiando il corso di "Full Stack Web developer". <br>
                  Inoltre mi sto cimentando in altri corsi che mi permettano di ampliare le mie conoscenze.</p>
                </div>
 
                <div class="col-lg-6 skills">
-                 <div class="skills ">
-                   <div class="title">
-                     <h3>Development Skills</h3>
-                   </div>
+                <div class="title text-center">
+                  <h3>Development Skills</h3>
+                </div>
+                 <div class="skills-container ">  
                    <div class="html5">
-                    <i class="fa-brands fa-html5"></i>
-                    <h4>HTML5</h4>
-                   
-                  </div>
-                  <div class="css3">
-                    <i class="fa-brands fa-css3-alt"></i>
-                    <h4>CSS3</h4>
-                  </div>
-                  <div class="bootstrap">
-                    <i class="fa-brands fa-bootstrap"></i>
-                    <h4>BOOTSTRAP</h4>
-                  </div>
-                  <div class="javascript">
-                    <i class="fa-brands fa-js"></i>                
-                    <h4>JAVASCRIPT</h4>
-                  </div>
+                     <i class="fa-brands fa-html5"></i>
+                     <h4>HTML5</h4>
+                   </div>
+                    <div class="css3">
+                     <i class="fa-brands fa-css3-alt"></i>
+                     <h4>CSS3</h4>
+                   </div>
+                   <div class="bootstrap">
+                     <i class="fa-brands fa-bootstrap"></i>
+                     <h4>BOOTSTRAP</h4>
+                   </div>
+                   <div class="javascript">
+                     <i class="fa-brands fa-js"></i>                
+                     <h4>JAVASCRIPT</h4>
+                    </div>
+                    <div class="sass">
+                     <i class="fa-brands fa-sass"></i>                
+                     <h4>SASS</h4>
+                    </div>
+                    <div class="git">
+                     <i class="fa-brands fa-git"></i>              
+                     <h4>GIT</h4>
+                    </div>
                  </div>
                </div>
              </div>
@@ -159,7 +171,80 @@
     </section>
 
 
-   
+   <!-- SECTION PROJECTS -->
+    
+    <section class="projects">
+      <a name="projects" id="section-projects"></a>
+      <div class="container-fluid">
+        <div class="row-title text-center">
+          <h2>PROJECTS</h2>
+        </div>
+        <div class="row container-fluid ">
+            <!-- Wonderful Books project -->
+          <div class="card img-project">
+            <img src="./img/Wonderful Books.png" class="card-img-top" alt="..."> 
+          </div>
+          <div class="card-body project's-details">
+            <h3 class="project's-name">Wonderful Books</h3>
+            <p class="project's description">
+              <strong>PROJECT OVERVIEW:</strong>
+              <br>
+              This project is an application designed to help users search for any book they want to find. 
+              Its purpose is to bring more people closer to the fascinating and incredible world of reading by offering an easy-to-use and accessible tool that allows anyone to discover books of any genre.
+              <br>
+              <strong>HOW IT WORKS:</strong><br>
+              Using a simple search bar, similar to Google's, users can type the name of a genre or the title of a book they are interested in and click the 'Search' button. The application then loads a list of books sourced from the 'OpenLibrary' server, displaying the title, cover, and author of each book. Additionally, with another button, users can access more detailed information, including the book's trama.</p>
+            <p class="project's-tecnologies"><strong>Technologies used:</strong> HTML, SCSS, JavaScript, Bootstrap5, Webpack5, Axios</p>
+            <p><strong>Github del progetto:</strong><a  class="github-project-link" href="https://github.com/GloriaMaggioni/Wonderful-Books" target="_blank">Wonderful Books</a>
+            </p>
+            <p><strong>Pagina web del progetto:</strong><a class="webpage-link" href=" https://wonderfulbooks.netlify.app/"  target="_blank">Wonderful Books</a> 
+            </p>
+          </div>
+          <!-- Images slider project -->
+          <div class="card-body project's-details images-slider">
+            <h3 class="project's-name">Images slider</h3>
+            <p class="project's description">
+              <strong>PROJECT OVERVIEW:</strong><br>
+              This is an image slider that  displays a landscapes and allows   interractive navigation
+               <br>
+               <strong>HOW IT WORKS:</strong><br>
+              The images can be scrolled by clicking the side buttons.
+              Below, the numbers correspond to each image and  stand out by changing color and size when the image changes</p>
+            <p class="project's-tecnologies"><strong>Technologies used:</strong> Html5, Css3, Javascript</p>
+            <p><strong>Github del progetto:</strong><a  class="github-project-link" href="https://github.com/GloriaMaggioni/ImagesSlider"  target="_blank">Images slider</a>
+            </p>
+            <p><strong>Pagina web del progetto:</strong><a class="webpage-link" href="https://gloriamaggioni.github.io/ImagesSlider/"  target="_blank">Images slider</a>
+            </p>
+          </div>
+          <div class="card img-project">
+            <img src="./img/Images slider.jpeg" class="card-img-top" alt="...">
+          </div>
+          <!-- Counter project -->
+          <div class="card img-project">
+            <img src="./img/Counter.png" class="card-img-top" alt="...">
+          </div>
+          <div class="card-body project's-details">
+            <h3 class="project's-name">Counter</h3>
+            <p class="project's description">
+              <strong>PROJECT OVERVIEW:</strong><br>
+              This project consists of a Counter, as stated in the title, which allows users to increase and/or decrease the displayed value.               <br>
+              <strong>HOW IT WORKS:</strong><br>
+              The Counter features a display showing the current value and, below it, two buttons (− and +) to decrease or increase the number. Users can simply click the appropriate button to adjust the value. However, the counter resets to zero when the page is refreshed or reopened.
+
+            </p>
+            <p class="project's-tecnologies"><strong>Technologies used:</strong> Html5, Css3, Javascript</p>
+            <p><strong>Github del progetto:</strong><a  class="github-project-link" href="https://github.com/GloriaMaggioni/Counter"  target="_blank">Counter</a>
+            </p>
+            <p><strong>Pagina web del progetto:</strong><a class="webpage-link" href="https://gloriamaggioni.github.io/Counter/"  target="_blank">Counter</a>
+            </p>
+
+          </div>
+
+
+         
+        </div>
+      </div>
+    </section>
   
  
 </main>
@@ -173,11 +258,11 @@
     <div class="row d-flex">
      
       <div class="col-12 social ">
-        <a href="https://www.instagram.com/glo_maggioni/" class="fa fa-instagram" rel="noopener" title="Go to my instagram profile"></a>
+        <a href="https://www.instagram.com/glo_maggioni/" target="_blank" class="fa fa-instagram" rel="noopener" title="Go to my instagram profile"></a>
          
-        <a href="https://www.linkedin.com/in/gloria-maggioni-154474151/" class="fa fa-linkedin" rel="noopener" title="Go to my linkedin profile"></a>
+        <a href="https://www.linkedin.com/in/gloria-maggioni-154474151/" target="_blank" class="fa fa-linkedin" rel="noopener" title="Go to my linkedin profile"></a>
 
-        <a href="https://github.com/GloriaMaggioni" class="fa fa-github" rel="noopener" title="Go to my Github profile"></a>      
+        <a href="https://github.com/GloriaMaggioni" target="_blank" class="fa fa-github" rel="noopener" title="Go to my Github profile"></a>      
       </div>
     </div>
     <div class="mention">

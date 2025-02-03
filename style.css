@@ -89,17 +89,13 @@ body{
 }
 
 
-
-
-
-
-
    /* SECTION WELCOME */
 
    .welcome .row{
     font-size: 25px;
     padding-top: 15px;
     font-family: 'Joan', serif;
+    margin: 0 auto;
    }
  
    
@@ -108,14 +104,13 @@ body{
     /*SECTION ABOUT ME  */
 
     .about-me .row{
-        margin-top: 1rem;
         padding-top: 10px;
         padding-top: 2rem;
+        margin: 1rem auto;
     }
     .about-me h2{
        margin-top: 6rem;
         text-align: center;
-        
     }
 
     .about-me  .description p {
@@ -128,10 +123,6 @@ body{
 
 
    
-   
-   
-   
-   
     /* SECTION  PROCESS */
 
 
@@ -143,11 +134,11 @@ body{
     .process .row-title h2{
         margin-top: 6rem;
     }
-   
-     
+    
     .process .row {
         margin: 0 auto;
         padding-top: 50px;
+
     }
 
     .process .row .experience{
@@ -156,35 +147,30 @@ body{
     .process .row h3{
         margin-top: 10px;
     }
-
-    .process .row .skills{
-        text-align: center;
-    }
-
-    .process .row h4 {
-        padding-top: 5px;
-        font-size: 27px ;
-    }
-
+    .process .row .experience{
+        border-radius: 2%;
+        border: 1px solid gold;
+     }
     .process .row p {
         margin-top: 5px;
         font-size: 16px;
     }
+ 
 
-    .process .row .experience{
-       border-radius: 2%;
-       border: 1px solid gold;
+    .process .row .skills-container{
+        display: inline-flex;
     }
 
-  
+    .process .row h4 {
+        padding-top: 5px;
+        font-size: 15px ;
+    }
+
 
     .fa-html5{
         color:#e54d26 ;
     }
    
-   
-    
-    
     .fa-css3-alt{
         color: #2163af;
     }
@@ -194,15 +180,73 @@ body{
     .fa-js {
        color: #F0DB4F;
     }
-    
-    .fa-html5, .fa-css3-alt, .fa-bootstrap, .fa-js {
-        font-size: 2rem;
-        margin: 1rem
+    .fa-sass{
+        color: #CD6799;
     }
-  
+    .fa-git{
+        color: #F1502F;
+    }
+    
+    .fa-html5, .fa-css3-alt, .fa-bootstrap, .fa-js, .fa-sass, .fa-git {
+        font-size: 3rem;
+        margin: 1rem;
+    }
+
+    .html5, .css3, .bootstrap, .javascript, .sass, .git{
+        text-align: center;
+        margin: 1.2rem
+    }
 
  
     
+    
+    /* SECTION PROJECTS */
+    
+   
+    .projects .row-title h2{
+        margin-top: 6rem;
+    }
+    .projects .row {
+       padding-top: 15px;
+       margin: 5px;
+        
+    }
+
+   .card{
+      width: calc(100% / 2 - 10px);
+      margin: 5px;
+   }
+   .card-img-top{
+      border: 1px solid green;
+      height: 100%;
+   }
+   .card-body{
+      width:calc(100% / 2 - 10px);
+      margin: 5px;
+      border: 1px solid gold;
+      border-radius: 2%;
+      padding: 10px;
+   }
+
+   .card-body a{
+      color: #000000;
+      text-decoration: none;
+   }
+
+
+   .card-body p {
+      font-family: 'Joan', serif;
+   }
+
+   .projects h3{
+      font-family: "Crimson Pro", serif;
+      font-optical-sizing: auto;
+      font-weight: 700;
+      font-style: oblique;
+   }
+   .projects .images-slider{
+      text-align:right ;
+   }
 
 
 
